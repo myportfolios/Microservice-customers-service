@@ -3,17 +3,21 @@
     "start": "nodemon"
   },
   "dependencies": {
+    "apollo-server-express": "^2.25.2",
     "body-parser": "^1.19.0",
     "express": "^4.17.1",
+    "graphql": "^15.5.1",
     "mongoose": "^5.12.14",
     "nodemon": "^2.0.7"
   },
   "name": "customers",
   "version": "1.0.0",
   "main": "customers.js",
-  "devDependencies": {},
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": ""
+  "description": "",
+  "devDependencies": {
+    "chalk": "^3.0.0"
+  }
 }
