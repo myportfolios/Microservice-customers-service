@@ -23,7 +23,7 @@ app.use(bodyParser.urlencoded({ extended: false }));
 
 //connect to DB
 mongoose.connect(
-  "mongodb+srv://customer_admin:<password>@cluster0.zhfqi.mongodb.net/myFirstDatabase?retryWrites=true&w=majority",
+  "mongodb+srv://customer_admin:mUodOhU7VbkBhLWA@cluster0.zhfqi.mongodb.net/Customers-Microservice?retryWrites=true&w=majority",
   { useNewUrlParser: true, useUnifiedTopology: true  },
   () => {
     console.log(chalk.green("connection to database successful!"));
