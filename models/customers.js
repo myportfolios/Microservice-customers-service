@@ -3,15 +3,15 @@ const mongoose = require('mongoose')
 const customersSchema = new mongoose.Schema({
     name: {
         type: String,
-        require: true
+        required: true
     },
     age: {
         type: Number,
-        require: true
+        required: true
     },
     address: {
         type: String,
-        require: true
+        required: true
     }
 })
 const Customers = mongoose.model('Customers', customersSchema)
